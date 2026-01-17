@@ -1,7 +1,7 @@
 Projeto Integrador I-A: Chatbot Clínica Bem-Estar (Java)
 
 
-Este repositório contém a implementação em Java de um chatbot para a Clínica Bem-Estar. O sistema foi desenvolvido como parte do Projeto Integrador I-A na Escola Politécnica da PUC Goiás.
+Este projeto consiste em um sistema de atendimento automatizado via console, desenvolvido para a Clínica Bem-Estar. O software foi estruturado em Java para oferecer uma interface de interação fluida com o paciente, permitindo desde o cadastro inicial até o agendamento de consultas em unidades específicas.
 +1
 
 👥 Autores
@@ -14,50 +14,46 @@ Bruna Gomes da Silva
 
 Pedro Henrique Clay de Lima Gonçalves 
 
-🚀 Funcionalidades do Código
-O programa foi estruturado para simular um fluxo de atendimento real, utilizando estruturas de repetição e condicionais em Java para gerenciar as seguintes opções:
+💻 Estrutura do Código
+
+A aplicação utiliza conceitos fundamentais de lógica de programação e Java:
+
+Validação de Entradas: O código utiliza um bloco try-catch para tratar a exceção NumberFormatException, garantindo que o sistema não seja interrompido caso o usuário insira caracteres inválidos no menu principal.
 
 
-Menu Principal Interativo: Utiliza um laço de repetição (como while ou do-while) para manter o atendimento ativo até que o usuário escolha a opção "Sair".
-+2
-
-
-Módulo de Cadastro: Captura de dados do tipo String para nome, especialidade e período, além de validar entradas de data e telefone.
-+4
-
-
-Consulta de Exames: Exibição de uma lista pré-definida de exames disponíveis na unidade.
-
-
-Agendamento por Localidade: Sistema de sub-menus para escolha de endereços (Avenida Castelo Branco, Setor Bueno ou Jardim América) com seleção de datas e horários específicos.
-+2
-
-🛠️ Tecnologias e Conceitos Aplicados
-Linguagem: Java.
-
-
-Entrada de Dados: Classe Scanner para capturar as interações do usuário via console.
-+2
-
-
-Estruturas de Controle: switch-case para o menu principal e if-else para validações de agendamento.
-+2
-
-
-Saída de Dados: System.out.println para a interface de diálogo com o paciente.
-+2
-
-📋 Fluxo de Execução Exemplo
-O sistema exibe as boas-vindas e o menu.
+Controle de Fluxo: Implementação de um laço while (continuar) que mantém o sistema ativo até que uma operação seja concluída ou o usuário decida sair.
 +1
 
-O usuário seleciona Opção 1 (Cadastro).
 
-O programa solicita dados como Nome e Telefone.
+Menus Dinâmicos: Uso de estruturas switch-case aninhadas para processar as escolhas de endereço, data e horário de forma organizada.
++3
+
+🏥 Funcionalidades Implementadas
+
+De acordo com a lógica do programa:
+
+
+Cadastro Completo: Coleta nome, idade, data de nascimento e telefone do paciente.
++2
+
+
+Exibição de Exames: Lista opções como Hemograma, Eletrocardiograma, Ultrassonografia e Glicemia.
 +1
 
-Após o preenchimento, o sistema confirma o sucesso do cadastro.
 
-O usuário pode prosseguir para agendar local e horário na Opção 3.
+Agendamento Localizado: Permite escolher entre três endereços (Avenida Castelo Branco, Setor Bueno e Jardim América) e define datas e horários específicos.
++2
 
-O sistema encerra ao digitar Opção 4
+
+Confirmação Final: O sistema gera um resumo detalhado da consulta agendada antes de encerrar.
+
+🛠️ Tecnologias Utilizadas
+Linguagem: Java
+
+Entrada de dados: java.util.Scanner
+
+Ambiente: Console (Terminal)
+
+📍Instituição: Pontifícia Universidade Católica de Goiás (PUC-GO).
+
+Instituição: Pontifícia Universidade Católica de Goiás (PUC-GO).Opção 4
