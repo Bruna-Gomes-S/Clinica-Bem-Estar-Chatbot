@@ -1,4 +1,4 @@
-Projeto Integrador I-A: Chatbot Clínica Bem-Estar (Java)
+## 🟢 Projeto Integrador I-A: Chatbot Clínica Bem-Estar 
 
 
 Este projeto consiste em um sistema de atendimento automatizado via console, desenvolvido para a Clínica Bem-Estar. O software foi estruturado em Java para oferecer uma interface de interação fluida com o paciente, permitindo desde o cadastro inicial até o agendamento de consultas em unidades específicas.
